@@ -6,4 +6,18 @@ To start the game run the `main.py` file.
 
 ## Gameplay
 
+<>
 
+## UML Diagram
+
+<>
+
+## RoadMap
+
+- Create a snake game s.t the state, rewards are structured in a way most apt for RL agents
+
+- Create a basic AI agent
+
+- Create a AI agent that improves in real time using RL. Also show progress metrics like running score history, averages, etc. Present it a visual format using graphs.
+
+- Deploy the app on some server (streamlit?), so that it easy to showcase.
