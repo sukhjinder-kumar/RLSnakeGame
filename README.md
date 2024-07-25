@@ -9,11 +9,13 @@ To start the game run the `main.py` file.
 The file structure is as follows - 
 
 ```
-Games
-	- SnakeGame
-AIAgents
-	- DyanmicProgramming
-main.py
+.
+├── AIAgents
+├── Games
+│   └── SnakeGame
+├── README.md
+├── main.py
+└── requirements.txt
 ```
 
 The idea is to provide general interface for both games and AI agents so that they can interact with each other, i.e. any game and any AI can work together (instead of n^2 integrations just 2n!)
