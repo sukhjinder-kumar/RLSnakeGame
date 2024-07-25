@@ -19,5 +19,5 @@ class GameInterface:
         """Check if the game has ended."""
         pass
     def show_viz(self):
-	"""Displays the UI of game"""
-	pass
+        """Displays the UI of game"""
+        pass

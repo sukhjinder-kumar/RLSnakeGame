@@ -83,10 +83,19 @@ if __name__ == "__main__":
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 game.reset()
-
-        # Example action: move right
-        game.take_action(1)
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_UP:
+                    # Example action: move up
+                    game.take_action(0)
+                elif event.key == pygame.K_DOWN:
+                    # Example action: move down
+                    game.take_action(2)
+                elif event.key == pygame.K_RIGHT:
+                    # Example action: move right
+                    game.take_action(1)
+                elif event.key == pygame.K_LEFT:
+                    # Example action: move left (was incorrectly labeled as "up")
+                    game.take_action(3)
         game.show_viz()
 
     pygame.quit()
-
